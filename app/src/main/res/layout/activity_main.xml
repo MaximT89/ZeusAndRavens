@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain2"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageViewRaven1"
+        android:layout_width="86dp"
+        android:layout_height="79dp"
+        android:translationZ="100dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.159"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9"
+        tools:src="@drawable/raven"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageViewRaven2"
+        android:layout_width="86dp"
+        android:layout_height="79dp"
+        android:translationZ="100dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9"
+        tools:src="@drawable/raven"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageViewRaven3"
+        android:layout_width="86dp"
+        android:layout_height="79dp"
+        android:translationZ="100dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.827"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9"
+        tools:src="@drawable/raven"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageViewLightning"
+        android:layout_width="67dp"
+        android:layout_height="232dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewCloud"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCloud"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCloud"
+        tools:src="@drawable/tile000" />
+
+
+    <ImageView
+        android:id="@+id/imageViewLightning2"
+        android:layout_width="67dp"
+        android:layout_height="232dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewCloud2"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCloud2"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCloud2"
+        tools:src="@drawable/tile000" />
+
+
+    <ImageView
+        android:id="@+id/imageViewLightning3"
+        android:layout_width="67dp"
+        android:layout_height="232dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewCloud3"
+        app:layout_constraintStart_toStartOf="@+id/imageViewCloud3"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewCloud3"
+        tools:src="@drawable/tile000" />
+
+
+    <ImageView
+        android:id="@+id/imageViewCloud3"
+        android:layout_width="213dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/cloud3"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCloud2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewCloud"
+        android:layout_width="213dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/cloud3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageViewCloud2"
+        android:layout_width="213dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/cloud3"
+        app:layout_constraintStart_toEndOf="@+id/imageViewCloud"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_start_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="start anim"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.973"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.955" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
